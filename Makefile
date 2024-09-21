@@ -1,5 +1,5 @@
-.PHONY start
+.PHONY: start
 
 start:
 	clear
-	go run src/main.go
+	@go run gochain/main.go
